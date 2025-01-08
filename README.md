@@ -10,7 +10,7 @@ This is a user script for Greasemonkey, Tampermonkey, or similar browser extensi
 
 ## Installation
 1. Install a userscript manager such as [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) or [Tampermonkey](https://www.tampermonkey.net/).
-2. Create a new script and copy the contents of `amazon_shortlink.js` into it.
+2. Create a new script and copy the contents of `Amazon_URLShortener.js` into it.
 3. Save the script and navigate to any Amazon product page to see it in action.
 
 ## Usage
