@@ -8,6 +8,9 @@ This is a user script for Greasemonkey, Tampermonkey, or similar browser extensi
 - The button's text and alert messages are localized based on the browser's language (Italian or English).
 - Designed to work on all Amazon domains.
 
+  ![immagine](https://github.com/user-attachments/assets/674f9375-71b1-49e3-a38a-e9ee779f3e10)
+  ![immagine](https://github.com/user-attachments/assets/87fed4a3-4df0-42f1-b164-a102de620bdb)
+
 ## Installation
 1. Install a userscript manager such as [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) or [Tampermonkey](https://www.tampermonkey.net/).
 2. Create a new script and copy the contents of `Amazon_URLShortener.js` into it.
