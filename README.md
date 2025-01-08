@@ -4,7 +4,7 @@
 This is a user script for Greasemonkey, Tampermonkey, or similar browser extensions. It adds a button to Amazon product pages that allows users to copy a short link to the product directly to their clipboard.
 
 ## Features
-- Detects the product's ASIN and generates a short link in the format: `https://www.amazon.[domain]/dp/[ASIN]`.
+- Detects the "product's ASIN" and generates a short link in the format: `https://www.amazon.[domain]/dp/[ASIN]`.
 - The button's text and alert messages are localized based on the browser's language (Italian or English).
 - Designed to work on all Amazon domains.
 
