@@ -29,15 +29,24 @@
         tempInput.select();
         document.execCommand('copy');
         document.body.removeChild(tempInput);
-        alert('Link copied: ' + text);
+        const lang = navigator.language || navigator.userLanguage;
+        if (lang.startsWith('it')) {
+            alert('Link copiato: ' + text);
+        } else {
+            alert('Link copied: ' + text);
+        }
     }
 
     // Find the product title
     const productTitleElement = document.getElementById('productTitle');
     if (productTitleElement) {
+        // Detect browser language
+        const lang = navigator.language || navigator.userLanguage;
+        const buttonText = lang.startsWith('it') ? 'Copia Link Breve' : 'Copy Short Link';
+
         // Create the button
         const copyButton = document.createElement('button');
-        copyButton.textContent = 'Copy Short Link';
+        copyButton.textContent = buttonText;
         copyButton.style.marginTop = '10px';
         copyButton.style.padding = '5px 10px';
         copyButton.style.backgroundColor = '#FA8900';
@@ -53,7 +62,8 @@
             if (shortLink) {
                 copyToClipboard(shortLink);
             } else {
-                alert('Error: Unable to generate the short link.');
+                const errorText = lang.startsWith('it') ? 'Errore: impossibile generare il link breve.' : 'Error: Unable to generate the short link.';
+                alert(errorText);
             }
         });
 
