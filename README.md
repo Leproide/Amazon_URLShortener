@@ -15,6 +15,13 @@ This is a user script for Greasemonkey, Tampermonkey, or similar browser extensi
 - **Configuration Options:**
   - `enableButton` (default: `true`): Adds or removes the button for copying the short link.
   - `modifyUrl` (default: `true`): Enables or disables the automatic modification of the browser URL.
+ 
+## Screenshots
+- Example of the button below the product title:
+
+![immagine](https://github.com/user-attachments/assets/1dac9578-a020-4e9b-a358-efbe0d23a622)
+
+![immagine](https://github.com/user-attachments/assets/a781e1f9-e059-4dd4-b5e5-556954bc554d)
 
 ## Installation
 1. Install a userscript manager such as [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) or [Tampermonkey](https://www.tampermonkey.net/).
@@ -65,6 +72,3 @@ Ensure you have a userscript manager installed for your browser.
 ## Localization
 - **English:** The button text and alerts appear in English for non-Italian browsers.
 - **Italiano:** Il testo del pulsante e gli avvisi appaiono in italiano per i browser impostati in lingua italiana.
-
-## Screenshots
-- Example of the button below the product title:
