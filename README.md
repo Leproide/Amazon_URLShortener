@@ -15,6 +15,7 @@ This is a user script for Greasemonkey, Tampermonkey, or similar browser extensi
 - **Configuration Options:**
   - `enableButton` (default: `true`): Adds or removes the button for copying the short link.
   - `modifyUrl` (default: `true`): Enables or disables the automatic modification of the browser URL.
+  - `popupDuration ` (default: `1500`): Popup duration in milliseconds.
  
 ## Screenshots
 - Example of the button below the product title:
