@@ -62,6 +62,8 @@ You can configure the script by modifying the following variables at the top of 
   - Set to `false` to disable the button for copying the short link.
 - `const modifyUrl = true;`
   - Set to `false` to prevent automatic modification of the browser URL.
+- `const popupDuration = 1500;`
+  - Popup duration in milliseconds.
 
 ## Compatibility
 This script has been tested on the following browsers:
