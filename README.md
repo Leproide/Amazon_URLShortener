@@ -68,7 +68,7 @@ You can configure the script by modifying the following variables at the top of 
 ## Compatibility
 This script has been tested on the following browsers:
 - Firefox
-- Chrome
+- Chrome (not on all version)
 
 Ensure you have a userscript manager installed for your browser.
 
