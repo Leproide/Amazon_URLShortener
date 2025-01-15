@@ -13,7 +13,7 @@
 
     // Configuration: Enable or disable features
     const enableButton = true; // true to add the copy button, false to disable it
-    const modifyUrl = true;    // true to modify the browser URL, false to leave it unchanged
+    const modifyUrl = true; // true to modify the browser URL, false to leave it unchanged
     const popupDuration = 1500; // Popup duration in milliseconds (1.5 seconds)
 
     // Function to generate the short link
