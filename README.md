@@ -69,7 +69,7 @@ You can configure the script by modifying the following variables at the top of 
 Ensure you have a userscript manager installed for your browser.
 This script has been tested on the following browsers:
 - ♡ Firefox ♡
-- Chrome (not on all version, fuck you google)
+- Chrome
 
 Chrome is a bloated, money-hungry disgrace of a browser that cripples extensions to shove its garbage ads down your throat. 
 It’s a shameless cash grab masquerading as innovation. 
