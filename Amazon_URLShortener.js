@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Amazon URL Shortener
 // @namespace    https://github.com/Leproide/Amazon_URLShortener/
-// @version      1.6.2
+// @version      1.6.3
 // @description:en  Adds a button to copy the short link of Amazon products and optionally modifies the URL in the address bar
 // @description:it  Aggiunge un pulsante per copiare il link corto dei prodotti Amazon, opzionalmente modifica l'URL nella barra degli indirizzi.
 // @author       Leproide
