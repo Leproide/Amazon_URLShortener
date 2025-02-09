@@ -25,7 +25,9 @@ This is a user script for Greasemonkey, Tampermonkey, or similar browser extensi
 ![immagine](https://github.com/user-attachments/assets/a781e1f9-e059-4dd4-b5e5-556954bc554d)
 
 ## Fast installation
-1. Go on [Greasyfork](https://greasyfork.org/it/scripts/524567-amazon-url-shortener) or on [Openuserjs](https://openuserjs.org/scripts/Leproide/Amazon_URL_Shortener) and click install.
+1. Install a userscript manager such as [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) or [Tampermonkey](https://www.tampermonkey.net/).
+2. Go on [Greasyfork](https://greasyfork.org/it/scripts/524567-amazon-url-shortener) or on [Openuserjs](https://openuserjs.org/scripts/Leproide/Amazon_URL_Shortener) and click install.
+3. Navigate to any Amazon product page to see it in action.
 
 ## Manual installation
 1. Install a userscript manager such as [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) or [Tampermonkey](https://www.tampermonkey.net/).
