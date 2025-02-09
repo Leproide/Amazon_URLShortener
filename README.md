@@ -24,7 +24,10 @@ This is a user script for Greasemonkey, Tampermonkey, or similar browser extensi
 
 ![immagine](https://github.com/user-attachments/assets/a781e1f9-e059-4dd4-b5e5-556954bc554d)
 
-## Installation
+## Fast installation
+1. Go on [Greasyfork](https://greasyfork.org/it/scripts/524567-amazon-url-shortener) or on [Openuserjs](https://openuserjs.org/scripts/Leproide/Amazon_URL_Shortener) and click install.
+
+## Manual installation
 1. Install a userscript manager such as [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) or [Tampermonkey](https://www.tampermonkey.net/).
 2. Create a new script and copy the contents of `Amazon_URLShortener.js` into it.
 3. Save the script and navigate to any Amazon product page to see it in action.
@@ -78,3 +81,6 @@ Do yourself a favor, ditch that dumpster fire and embrace Firefox, the browser t
 ## Localization
 - **English:** The button text and alerts appear in English for non-Italian browsers.
 - **Italiano:** Il testo del pulsante e gli avvisi appaiono in italiano per i browser impostati in lingua italiana.
+
+## Why so many includes?
+Because the indexing on greasyfork.org is garbage, I had to include all the domains for it to be properly found in the plugin's internal search.
